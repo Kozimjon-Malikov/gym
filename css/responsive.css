@@ -1,0 +1,177 @@
+@media (max-width: 992px) {
+  header > .container .row {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 0px;
+  }
+  .topnav {
+    margin: 15px 0px;
+    display: none;
+  }
+  .topnav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigator {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+  }
+  .top__head > .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .contact__top {
+    display: none;
+    margin: auto;
+    flex-direction: column;
+  }
+  .contact__top p a {
+    position: relative;
+    left: 5px;
+  }
+  header {
+    display: none;
+  }
+  .form__search {
+    display: none;
+  }
+  .shop {
+    display: none;
+  }
+  /* main__header__nav */
+  .main__header__nav .container {
+    position: relative;
+  }
+  .main__header__nav > .navbar > ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    float: left;
+  }
+  .main__header__nav .navbar > ul > li {
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+  }
+  .main__header__nav .navbar > ul > li:hover > .sub__menu {
+    width: 100%;
+  }
+  .main__header__nav > .navbar > ul > li > .sub__menu > ul {
+    width: 100%;
+  }
+  .sub__menu ul li {
+    width: 100%;
+  }
+  .company__details {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: var(--1-d-1-e-22, #1d1e22);
+    z-index: 1;
+    width: 100%;
+    padding: 15px;
+  }
+  .company__details ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .company__details ul li a {
+    color: #dedfe7;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .inner__li {
+    border-top: 1px solid #36383f;
+    border-bottom: 1px solid #36383f;
+    width: 80%;
+    margin: 10px 0px;
+  }
+  .inner__li ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner__li ul li a {
+    color: #dedfe7;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .main__header__nav .navbar ul li .sub__menu:hover{
+    position: absolute;
+    left: -400px;
+  }
+  .last__inner__menu:hover .inner__sub__menu{
+    left: 0;
+  }
+  .active__inner__nav{
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+  }
+  .inner__sub__menu{
+    width: fit-content
+  }
+  .controller__slider{
+    width: -webkit-fill-available;
+  }
+  .topslider{
+    overflow: hidden;
+    grid-template-columns:repeat(1,1fr);
+  }
+  .arrows__slide{
+    float: left;
+  }
+  .category__cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 5px auto;
+  }
+  .card__item{
+    margin: 5px auto;
+  }
+  .info__company{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .company__items .item{
+    margin: 10px auto;
+  }
+  .company{
+    padding: 15px 20px;
+  }
+  .category{
+    padding: 15px 20px;
+  }
+  .part__gym{
+    padding: 15px 20px;
+  }
+  .box__content{
+    padding: 10px;
+  }
+
+
+}
+
+@media (max-width:576px){
+    .category__cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        margin: 5px auto;
+      } 
+      .card__item{
+        margin: 5px auto;
+      }
+}

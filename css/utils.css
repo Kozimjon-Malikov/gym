@@ -1,0 +1,84 @@
+:root{
+    --text-black:rgba(54, 56, 63, 1);
+    --text-light:rgba(110, 114, 132, 1);
+    --text-blue:rgba(71, 136, 255, 1);
+    --text-white:rgba(255, 255, 255, 1);
+    --text-white-2:rgba(222, 223, 231, 1);
+    --text-span:rgba(163, 166, 178, 1);
+    --bg-blue:rgba(10, 78, 203, 1);
+    --bg-black:rgba(29, 30, 34, 1);
+    --bg-dark:rgba(17, 17, 18, 1);
+    --bg-yellow:rgba(255, 198, 47, 1);
+    --bg-darkblue:rgba(4, 53, 143, 1);
+    --bg-red:rgba(240, 71, 22, 1);
+    --bg-top:rgba(244, 245, 248, 1);
+   
+}
+.container{
+max-width: 1180px;
+margin: 0 auto;
+    
+}
+.container-fluid{
+    width: 100%;
+    margin: 0px auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.g-1{
+    gap: 10px;
+}
+.g-2{
+    gap: 20px;
+}
+.g-3{
+    gap: 30px;
+}
+.g-4{
+    gap: 40px;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+}
+
+.active_link{
+    background-color: rgba(4, 53, 143, 1);
+    padding: 30px 10px;
+}
+.active_orange{
+    color: rgba(255, 250, 47, 1)!important;
+}
+
+.active__nav{
+    display: flex;
+    z-index: 2;
+}
+.active__bar{
+    transition: 0.3s ease;
+}
+.active__bar .line_navigator:first-child{
+    transform: rotate(45deg);
+    position: relative;
+    top: 9px;
+    bottom: 3px;
+}
+.active__bar .line_navigator:nth-child(2){
+    display: none;
+}
+.active__bar .line_navigator:last-child{
+    transform: rotate(-45deg);
+    position: relative;
+    right: 1px;
+    bottom: 10px;
+}
