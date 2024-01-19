@@ -90,6 +90,12 @@
     font-weight: 400;
     line-height: 34px;
   }
+  .category .container h2{
+    text-align: center;
+  }
+  .part__gym h2{
+    text-align: center;
+  }
   .inner__li {
     border-top: 1px solid #36383f;
     border-bottom: 1px solid #36383f;
@@ -111,7 +117,7 @@
     left: -400px;
   }
   .last__inner__menu:hover .inner__sub__menu{
-    left: 0;
+    /* left: 0; */
   }
   .active__inner__nav{
     position: absolute;
@@ -119,7 +125,7 @@
     z-index: 1;
   }
   .inner__sub__menu{
-    width: fit-content
+    /* width: fit-content */
   }
   .controller__slider{
     width: -webkit-fill-available;
@@ -160,6 +166,57 @@
   .box__content{
     padding: 10px;
   }
+  .mySwiper6pro{
+    max-width: 500px;
+    margin: 10px auto;
+  }
+  .man__gallery .swiper6 .swiper-wrapper .swiper-slide{
+    max-width: 100px;
+  }
+  .man__gallery .swiper6 .swiper-wrapper .swiper-slide img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .gallery{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .man__gallery .swiper6 .swiper-wrapper{
+    height: 100px;
+  }
+  .mail__form form input[type='email']{
+    width: 100%;
+    height: 45px;
+    flex: 0 0 95%;
+    border-radius: 8px;
+  }
+  .mail__form form{
+    flex-wrap: wrap;
+  }
+  .mail__form form button{
+    margin-top: 10px;
+  }
+  .content__part ul{
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .content__part{
+    max-height: 100%;
+  }
+  .mail__send .container{
+    padding: 10px 15px;
+  }
+  footer{
+    padding: 10px 15px;
+  }
+  .footer__inner{
+    padding: 10px 15px;
+  }
+  .footer__layout {
+    gap: 20px;
+  }
+  .footer__inner .container{
+    justify-content: center;
+  }
 
 
 }
@@ -173,5 +230,12 @@
       } 
       .card__item{
         margin: 5px auto;
+      }
+      .man__gallery{
+        max-width: 390px;
+        margin: 0 auto;
+      }
+      .mySwiper6pro{
+        max-width: 300px;
       }
 }
