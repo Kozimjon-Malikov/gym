@@ -188,6 +188,7 @@
     height: 45px;
     flex: 0 0 95%;
     border-radius: 8px;
+    margin: 15px 0px;
   }
   .mail__form form{
     flex-wrap: wrap;
@@ -203,7 +204,7 @@
     max-height: 100%;
   }
   .mail__send .container{
-    padding: 10px 15px;
+    padding: 60px 15px;
   }
   footer{
     padding: 10px 15px;
@@ -216,6 +217,10 @@
   }
   .footer__inner .container{
     justify-content: center;
+  }
+  .man__gallery{
+    max-width: 390px;
+    margin: 0 auto;
   }
 
 
@@ -232,10 +237,13 @@
         margin: 5px auto;
       }
       .man__gallery{
-        max-width: 390px;
+        max-width: 290px;
         margin: 0 auto;
       }
       .mySwiper6pro{
         max-width: 300px;
+      }
+      main{
+        overflow: hidden;
       }
 }

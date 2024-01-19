@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/utils.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
+    <link rel="stylesheet" href="./wow/animate.css">
 </head>
 
 <body>
-    <header>
+    <header class="wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="img__icons">
@@ -54,12 +53,12 @@
     </header>
     <main>
         <!-- header navigation main  -->
-        <div class="container top__head">
+        <div class="container top__head wow fadeInLeft">
             <div class="main__header flex">
-                <div class="logo">
+                <div class="logo wow fadeInLeft">
                     <img src="./images/logo.png" alt="logo">
                 </div>
-                <div class="form__search">
+                <div class="form__search wow fadeInTop">
                     <form action="#">
                         <label for="search">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -67,7 +66,7 @@
                         <input type="search" name="search" id="search" placeholder="Поиск по сайту">
                     </form>
                 </div>
-                <div class="shop">
+                <div class="shop wow fadeInRight">
                     <a href="#"><i class="fa-regular fa-heart"></i></a>
                     <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
                     <div class="shopping__cart">
@@ -108,7 +107,7 @@
                 </div>
             </div>
         </div>
-        <div class="main__header__nav">
+        <div class="main__header__nav wow fadeInLeft">
             <div class="navbar container">
                 <ul>
                     <li>
@@ -207,8 +206,8 @@
             </div>
         </div>
         <!-- top slider  -->
-        <section class="topslider">
-            <div class="main__slider">
+        <section class="topslider wow fadeInLeft">
+            <div class="main__slider wow slideInLeft">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -253,7 +252,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right__news">
+            <div class="right__news wow slideInRight">
                 <div class="card__news">
                     <img src="./images/banner__elems_1.png" alt="img">
                     <div class="card__data">
@@ -273,7 +272,7 @@
             </div>
         </section>
         <!-- Шведские стенки -->
-        <section class="part__gym">
+        <section class="part__gym wow fadeInLeft">
             <div class="swiper mySwiper2 container">
                 <h2>Шведские стенки</h2>
                 <div class="swiper-wrapper mt-2">
@@ -366,7 +365,7 @@
 
         </section>
         <!-- Уличные спортивные комплексы -->
-        <section class="part__gym">
+        <section class="part__gym wow slideInLeft">
             <div class="swiper mySwiper3 container">
                 <h2>Уличные спортивные комплексы</h2>
                 <div class="swiper-wrapper mt-2">
@@ -439,7 +438,7 @@
 
         </section>
         <!-- Atletika  -->
-        <section class="part__gym">
+        <section class="part__gym wow slideInRight">
             <div class="swiper mySwiper4 container">
                 <h2>Шведские стенки</h2>
                 <div class="swiper-wrapper mt-2">
@@ -532,7 +531,7 @@
             </div>
         </section>
         <!-- category  -->
-        <section class="category">
+        <section class="category wow fadeInLeft">
             <div class="container">
                 <h2>
                     Каталог товаров
@@ -574,7 +573,7 @@
                 </div>
             </div>
         </section>
-        <section class="company">
+        <section class="company wow fadeInRight">
             <h2>О компании</h2>
             <div class="info__company">
                 <h4>
@@ -612,7 +611,7 @@
                 </div>
             </div>
         </section>
-        <section class="gallery">
+        <section class="gallery wow slideInLeft">
             <div class="man__gallery">
                 <div thumbsSlider="" class="swiper mySwiper6pro">
                     <div class="swiper-wrapper">
@@ -714,7 +713,7 @@
             </div>
         </section>
         <!-- b:details  -->
-        <section class="blog__detais">
+        <section class="blog__detais wow slideInLeft">
             <div class="delivery">
                 <h2>Доставка</h2>
                 <p>
@@ -747,7 +746,7 @@
             </div>
         </section>
         <!-- Редкие, но очень полезные письма! -->
-        <section class="mail__send">
+        <section class="mail__send wow slideInRight">
             <div class="container">
                 <div class="mail__content">
                     <h2>Редкие, но очень полезные письма!</h2>
@@ -762,7 +761,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="wow fadeInLeft">
         <div class="footer__layout">
             <div class="footer__items">
                 <h2>Контакты</h2>
@@ -826,7 +825,7 @@
     <script src="./js/app.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <script src="./wow/wow.min.js"></script>
 </body>
 
 </html>

@@ -166,4 +166,5 @@ window.addEventListener("DOMContentLoaded", () => {
   slide4();
   slide5();
   slide6();
+  new WOW().init();
 });
